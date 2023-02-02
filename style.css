@@ -3,10 +3,6 @@ body {
     margin: 0;
 }
 
-.header {
-    padding: 0 200px;
-}
-
 ul {
     list-style: none;
     margin: 0;
@@ -22,13 +18,24 @@ a {
     color: #d2d2d2;
 }
 
-.header {
+.header,
+.footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    padding: 0 200px;
     height: 70px;
-    font-weight: bold;
     color: #F9FAF8;
     background-color: #1F2937;
+}
+
+.header {
+    justify-content: space-between;
+    font-weight: bold;
     font-size: 18px;
+}
+
+.footer {
+    justify-content: center;
+    font-weight: 200;
+    font-size: 14px;
 }
