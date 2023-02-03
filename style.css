@@ -34,6 +34,12 @@ h2 {
     margin: 30px 0;
 }
 
+h5 {
+    margin: 0;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 h6 {
     display: flex;
     justify-content: flex-end;
@@ -48,17 +54,26 @@ p {
     color: #e5e7eb;
 }
 
+.cta-text > p {
+    font-size: 14px;
+}
+
 button {
-    width: 100px;
+    width: 110px;
     border-radius: 6px;
     color: #F9FAF8;
     background-color: #3882f6;
     font-weight: bold;
-    padding: 6px;
+    padding: 8px;
+    font-size: 14px;
 }
 
 .content-header > button {
     border: none;
+}
+
+.message-box > button {
+    border: 2px solid white
 }
 
 .header,
@@ -86,7 +101,8 @@ button {
 
 .header-signup,
 .random-info,
-.quote {
+.quote,
+.cta {
     flex: 1 1 400px;
 }
 
@@ -155,6 +171,23 @@ h6 {
 .quote > p {
     color: black;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 170%;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 200px;
+}
+
+.message-box {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    height: 150px;
+    border-radius: 6px;
 }
